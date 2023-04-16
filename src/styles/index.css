@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+#main-menu a {
+    @apply block px-3 py-1 hover:bg-gray-700
+}
+
+#main-menu a.active {
+    @apply bg-gray-700
+}
